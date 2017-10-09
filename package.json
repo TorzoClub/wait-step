@@ -1,6 +1,6 @@
 {
   "name": "wait-step",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "延遲執行函數",
   "main": "index.js",
   "scripts": {

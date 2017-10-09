@@ -3,12 +3,18 @@ wait-step
 
 延遲函數，因為 setTimeout 用著有些不爽……
 
+# 安裝
+
+```
+npm install wait-step --save
+```
+
 # 用法
 
 ## 一般用法
 
 ```javascript
-const wait_step = require('wait_step')
+const wait_step = require('wait-step')
 
 wait_step(999, () => {
   // 999毫秒后才執行
@@ -22,7 +28,7 @@ wait_step(() => {
 ## 嵌套用法
 
 ```javascript
-const wait_step
+const wait_step = require('wait-step')
 
 wait_step(500, () => {
   // 等待 500 毫秒才會執行
